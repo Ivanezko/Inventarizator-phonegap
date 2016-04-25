@@ -12,12 +12,7 @@ function scanBarCode(mode) {
             }
 
             if (mode == 'check') {
-                var res = check(result.text);
-                if (res) {
-                    alert(res);
-                } else {
-                    alert('not found');
-                }
+                check(result.text);
             }
 
             /*alert("We got a barcode\n" +
