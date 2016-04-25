@@ -37,10 +37,10 @@ function check(barcode) {
             var len = results.rows.length;
             if (len) {
                 console.log(results.rows.item(0).desc);
-                return results.rows.item(0).desc;
+                alert(results.rows.item(0).desc);
             } else {
                 console.log('not found');
-                return null;
+                alert("not found");
             }
 
         }, null);
