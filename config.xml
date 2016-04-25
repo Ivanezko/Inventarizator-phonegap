@@ -14,8 +14,7 @@
     <content src="index.html" />
     <access origin="*" />
 
-    <gap:plugin name="cordova-plugin-flashlight" source="npm" />
-    <gap:plugin name="com.manateeworks.barcodescanner" />
+    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
 
 
 </widget>
