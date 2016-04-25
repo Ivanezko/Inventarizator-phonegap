@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ivanezko.inventarizator"
+        version="0.0.1"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:cdv="http://cordova.apache.org/ns/1.0"
+        xmlns:gap = "http://phonegap.com/ns/1.0">
+    <name>Inventarizator 0.1</name>
+    <description>
+        An app for inventarization of everything with barcodes
+    </description>
+    <author email="ivanezko@gmail.com" href="http://bigmir.net">
+        Ivan Eydemiler
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+
+    <gap:plugin name="cordova-plugin-flashlight" source="npm" />
+
+
+</widget>
