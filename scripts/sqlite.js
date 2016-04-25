@@ -36,8 +36,8 @@ function check(barcode) {
         transaction.executeSql('SELECT * FROM items where barcode=?', [barcode], function (tx, results) {
             var len = results.rows.length;
             if (len) {
-                console.log(results.rows.item(0).desc);
-                alert(results.rows.item(0).desc);
+                console.log(results.rows.item(0).barcode);
+                alert(results.rows.item(0).barcode);
             } else {
                 console.log('not found');
                 alert("not found");
