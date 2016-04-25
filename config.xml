@@ -14,7 +14,7 @@
     <content src="index.html" />
     <access origin="*" />
 
-    <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+    <plugin name="com.phonegap.plugins.barcodescanner" source="pgb" spec="2.2.0" />
 
 
 </widget>
